@@ -1,0 +1,16 @@
+
+html, body{
+    --red: #9E1D3B;
+    --yellow: #ECC75B;
+    --green: #4C6744;
+    --white: #fff;
+    height: 100%;
+    position: relative;
+    margin: 0px;   
+}
+
+#root, #hero-container{
+    height: 100%;
+}
+
+

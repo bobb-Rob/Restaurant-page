@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.nav-container{
+    min-height: 10px;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between; 
+    position: fixed;
+    top: 0px;
+    background-color: var(--red);
+   
+}
+
+.logo-wrapper{
+    width: 180px;
+    margin: 5px;    
+    margin-left: 50px; 
+    /* border: 2px solid green;    */
+}
+
+.logo-wrapper img{  
+    width: 80%;
+}
+
+.tab-wrapper{
+   width: 60%;  
+   /* border: 2px solid blue; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around; 
+ 
+}
+
+.link-wrapper{
+    height: 100%;
+     min-width: 120px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.link-wrapper:hover{
+    background-color: rgb(0, 0, 0);
+    color: black;
+    cursor: pointer;
+}
+
+.tab-wrapper a{
+    /* min-width: 150px;   */
+    color: var(--white);      
+    transition: 0.3s; 
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;      
+    text-align: center;
+    /* margin: 0px 50px 0px 50px; */
+}
+
+
+.activeSection{
+    /* background-color: rgb(255, 255, 255) !important;     */
+    color: var(--yellow) !important;
+  }
+
+  @media screen and (max-width: 375px){
+         
+    .logo-wrapper{
+        width: 180px;
+        /* margin-bottom: 20px; */
+    }
+         
+       
+    .tab-wrapper button{
+       min-width: 50px; 
+       padding: 5px 8px;     
+    }
+    
+    .tab-wrapper button:hover {
+        background-color: #ddd;
+      }
+
+
+  }
+
+
+  @media screen and (max-width: 600px){
+    .tab-wrapper button{
+        min-width: 120px;
+    }
+
+
+  }
