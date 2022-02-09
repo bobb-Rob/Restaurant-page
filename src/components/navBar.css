@@ -11,7 +11,7 @@
     justify-content: space-between; 
     position: fixed;
     top: 0px;
-    background-color: var(--red);
+    background-color: transparent;
    
 }
 
