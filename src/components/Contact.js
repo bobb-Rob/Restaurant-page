@@ -2,16 +2,7 @@
 
 const contact = (() => {
 
-    function sum(){
-        console.log(arguments)
-        let sum = 0;
-        sum = arguments.forEach(element => {
-            return sum += element
-        });
-        return sum
-    }
-
-    sum(1,2,4);
+    
 
 
 
