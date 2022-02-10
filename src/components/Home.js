@@ -67,7 +67,7 @@ const Home = (() => {
    }
 
 //    Display image on page load
-   document.addEventListener('DOMContentLoaded', (e) => {    
+   document.addEventListener('DOMContentLoaded', () => {    
     const images = document.getElementsByClassName('mySlides');   
     console.log(images);   
 
