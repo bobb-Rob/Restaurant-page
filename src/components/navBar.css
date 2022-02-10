@@ -5,14 +5,13 @@
 
 .nav-container{
     min-height: 10px;
-    width: 100%;
-    /* border: 2px solid green; */
+    width: 100%;   
     display: flex;
     justify-content: space-between; 
     position: fixed;
     top: 0px;
-    background-color: transparent;
-   
+    background-color: var(--red);
+   z-index: 1000;
 }
 
 .logo-wrapper{
