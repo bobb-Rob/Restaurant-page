@@ -5,14 +5,17 @@
 
 .nav-container{
     min-height: 10px;
-    width: 100%;
-    /* border: 2px solid green; */
+    width: 100%;   
     display: flex;
     justify-content: space-between; 
     position: fixed;
     top: 0px;
     background-color: var(--red);
+<<<<<<< HEAD
    
+=======
+   z-index: 1000;
+>>>>>>> homepage
 }
 
 .logo-wrapper{

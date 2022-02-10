@@ -30,6 +30,7 @@ const appUI = (() => {
         // Select home as default display section
         homeSection.classList.add('now-displayed');
         homeSection.appendChild(Home.homeChildren());
+       
 
     //Menu section
     const menuSection = createSection('menu');

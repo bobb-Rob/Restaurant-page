@@ -3,9 +3,12 @@
 const contact = (() => {
 
     
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> homepage
     const contactChildren = () => {
         const contact = document.createElement('div');
         contact.innerHTML = `
