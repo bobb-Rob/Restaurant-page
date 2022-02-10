@@ -1,10 +1,4 @@
 
-<<<<<<< HEAD
-/* *{
-    border: 1px solid blue ;
-} */
-=======
->>>>>>> homepage
 
 :root{
     --backGround: rgb(20, 3, 5);
@@ -19,11 +13,7 @@
 }
 
 #home{
-<<<<<<< HEAD
-    background-color: white;
-=======
     background-color: var(--white);
->>>>>>> homepage
     width: 100%;
     justify-content: center;
 }
