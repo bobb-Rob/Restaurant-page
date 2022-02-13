@@ -37,9 +37,8 @@ const Home = (() => {
                 <img src=${img.image} style="width:100%">                
                 </div>
                 `
-        })
-         
-        console.log(image.join(' '))
+        });        
+        
     return image.join(' ');    
     }
 
@@ -68,16 +67,13 @@ const Home = (() => {
 
 //    Display image on page load
    document.addEventListener('DOMContentLoaded', () => {    
-    const images = document.getElementsByClassName('mySlides');   
-    console.log(images);   
+    const images = document.getElementsByClassName('mySlides');      
 
-    const displayImage = (index) => {
-        console.log('image' + (index + 1) + ':', index)       
+    const displayImage = (index) => {             
         for(let i = 0; i < images.length; i++){
             images[i].style.display = 'none';
             if( i === images[index].id.match(/\d/g).toString()*1){               
-                images[index].style.display = 'block';
-                console.log(images[index].id);
+                images[index].style.display = 'block';               
             }    
         }
     }
@@ -90,11 +86,8 @@ const Home = (() => {
             n.push(1);
             return;
         }else{
-            n = [];
-            console.log('n empty again, because, its length is more than five');
-        }
-        console.log(n);        
-        console.log(n.length, ' end of code')
+            n = [];          
+        }        
     }, 5000);
    })
    

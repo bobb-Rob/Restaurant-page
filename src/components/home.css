@@ -5,34 +5,20 @@
 }
 
 
-#home, #menu, #contact{  
-    padding-top: 80px;
-    height: 100%; 
-    display: none;  
-    background-color: var(--white);
-}
-
-#home{
-    background-color: var(--white);
+#home, #contact{  
+    padding-top: 80px;  
     width: 100%;
+    display: none;  
     justify-content: center;
+    background-color: var(--white);
 }
 
-/* #menu{
-    
-}
-#contact{
-    background-color: rgb(148, 32, 32);
-} */
 
 .now-displayed{
     display: flex !important;
 }
 
-.home-caption{
-    text-align: center;
-    color: white;
-}
+
 
 .home-background{  
     height: 100%;

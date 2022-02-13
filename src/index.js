@@ -1,6 +1,6 @@
 import { navigationBar } from "./components/NavBar";
 import Home from "./components/Home";
-import menu from "./components/Menu";
+import Menu from "./components/Menu";
 import contact from "./components/Contact";
 import './App.css'
 
@@ -34,7 +34,8 @@ const appUI = (() => {
 
     //Menu section
     const menuSection = createSection('menu');
-
+    menuSection.appendChild(Menu.menuChildren())
+    console.log(menuSection)
 
     //Contact Section
     const contactSection = createSection('contact');
