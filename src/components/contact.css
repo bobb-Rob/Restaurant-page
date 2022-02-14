@@ -1,0 +1,17 @@
+#contact{  
+    padding-top: 80px;  
+    width: 100%;
+    display: none;  
+    justify-content: center;
+    background-color: var(--white);    
+}
+
+.contact-background{
+    border: 2px solid red;
+}
+
+#map{
+    height: 300px;
+    border: 2px solid green;
+    width: 100%;
+}

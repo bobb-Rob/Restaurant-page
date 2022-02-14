@@ -35,13 +35,12 @@ const appUI = (() => {
     //Menu section
     const menuSection = createSection('menu');
     menuSection.appendChild(Menu.menuChildren())
-    console.log(menuSection)
+   
 
     //Contact Section
     const contactSection = createSection('contact');
     contactSection.appendChild(contact.contactChildren());
-
-
+    console.log(contactSection);
 
     heroContainer.appendChild(homeSection);
     heroContainer.appendChild(menuSection);
