@@ -3,15 +3,25 @@
     width: 100%;
     display: none;  
     justify-content: center;
-    background-color: var(--white);    
+    background-color: var(--white); 
+     
+    height: 50vh;
 }
 
 .contact-background{
-    border: 2px solid red;
+    border: 2px solid rgb(167, 152, 152);
+    margin-top: 50px;
+    padding: 20px;
 }
 
-#map{
-    height: 300px;
-    border: 2px solid green;
-    width: 100%;
+
+.contact-background div{
+   display: flex;
+   align-content:center ;
+   margin-top: 20px;
+}
+
+.contact-background svg{
+   fill: var(--red);
+   margin-right: 10px;
 }
